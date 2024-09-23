@@ -1,5 +1,13 @@
+import Header from "@/components/header";
+import { Heading } from "@radix-ui/themes";
+
 export default function Home() {
   return (
-    <h1>Hello Deric</h1>
+    <main>
+      <>
+        <Header />
+        <Heading>Pokemon Deck Builder</Heading>
+      </>
+    </main>
   );
 }
